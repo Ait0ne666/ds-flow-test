@@ -1,6 +1,6 @@
 {
   "name": "test-ds-flow",
-  "version": "1.0.0",
+  "version": "1.0.0-dev.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,5 +9,7 @@
   "pre-commit": [
     "bump"
   ],
-  "devDependencies": {}
+  "devDependencies": {
+    "@darksun/ds-flow": "https://github.com/Ait0ne666/ds-flow"
+  }
 }
